@@ -1,0 +1,285 @@
+@media (max-width:740px){
+    #myvideo{
+        display: none;
+    }
+    .video{
+        background: url(/unnamed.jpg) no-repeat;
+        padding-bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+    }
+    .picture{
+        margin: 0px auto;
+        width: 70px;
+    }
+    nav{
+        display: none;
+    }
+    #daulinh{
+        height: 300px;
+    }
+    .book{
+        font-size: 70px;
+    }
+    .contec{
+        padding: 20px;
+
+    }
+    .contec h2{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .slidekm img{
+        width: 500px;
+        height: 300px;
+    }
+    #slideboss{
+        width: 500px;
+        margin-top: 0px;
+    }
+    .dieuhuong{
+     display: none;
+    }
+    .dieuhuong i:last-child {
+        left: 320px;
+    }
+    #bunglinh{
+        height: 360px;
+    }
+    .menu_mobile{
+        position: absolute;
+        top: 30px;
+        left: 10px;
+        cursor: pointer;     
+    }
+  i.fa-bars{
+    font-size: 30px;
+    color: rgba(21, 255, 0, 0.673);
+    display: block;
+  }
+  .sticky i.fa-bars{
+    color: black;
+  }
+  .modal_menu{
+    background-color: rgb(172, 48, 48);
+    position: fixed;
+    width: 100vw;
+    z-index: 99999999999 ;
+    left: 0;
+    top: 0;
+    height: 100vh;   
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .box_content{
+    width: 60%;
+    margin: 70px auto;
+    text-align: center;
+  }
+  .mobile_picture{
+    margin-top: 50px;
+    width: 150px;
+  }
+  .content_modal{
+    margin-top: 20px;
+  }
+  .content_modal a{
+    font-size: 20px;
+  }
+  .content_modal a:hover{
+    color: beige;
+  }
+  #modal_endlinh{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    background-color: antiquewhite;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+  .fa-xmark{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+  }
+  .contec h2{
+    font-size: 15px;
+  }
+  .contec h3{
+    font-size: 15px;
+  }
+  .contec{
+   max-width: 400px;
+  }
+  #thanlinh{
+    height: 100%;
+  }
+  .slidder{
+    max-width: 500px;
+    max-height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -150px;
+    
+}
+.slider-menu{
+    
+    display: flex;
+    
+}
+.slider-menu input{
+    display: none;
+}
+.slide img{
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 30px;
+    
+}
+.slide{
+    width: 100%;
+    transition: 2s;
+}
+label.manual-btn{
+    border:2px solid #40D3DC;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 1s;
+}
+.navigation-start{
+    position: absolute;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    margin-top: 304px;
+}
+.navigation-auto .aqua{
+    border:2px solid #40D3DC;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 1s;
+}
+.navigation-auto .aqua:not(:last-child){
+    margin-right: 10px;
+}
+.contecchanlinh h1{
+top: 10px;
+}
+.contecchanlinh h2{
+  margin-top: -50px;
+}
+.dark img{
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+}
+#duilinh{
+  height: 600px;
+  overflow: hidden;
+}
+.dark{
+  height: 600px;
+}
+.light{
+  height: 600px;
+}
+.conteclight{
+width: 80%;
+padding-top: 10px;
+}
+.conteclight p{
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(175, 63, 95);
+  }     
+  .conteclight p1{
+      color: #fff;
+      font-size: 18px;
+  
+  }    
+  .conteclight p2{
+      color: rgb(175, 63, 95);
+      font-size: 15px;
+  }  
+  .conteclight p3{
+      color: gray;
+      font-size: 14px;
+  }
+  #daugoilinh{
+    height: 600px;
+    overflow: hidden;
+  }
+  .contecdaugoi{
+    width: 400px;
+    padding-top: 30px;
+  }
+  .contecdaugoi h1{
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .contecdaugoi h2{
+    font-size: 14px;
+  }
+  .severvice{
+   margin: 0px auto;
+    width: 280px;
+    overflow: hidden;
+  }
+  .severvice:hover{
+    cursor: ew-resize;
+}
+#banchanlinh a{
+  font-size: 21px;
+}
+#banchanlinh{
+  width: 500px;
+}
+#banchanlinh .im1{
+  width: 100%;
+}
+#banchanlinh {
+  display: none;
+  
+}
+.ti-location-pin::before,.ti-microphone::before,.ti-email::before,.ti-user::before{
+  font-size: 20px;
+  text-align: center;
+  color: grey;
+}
+#ngonchanlinh h1{
+  font-size: 12px;
+  color: grey;
+  font-weight: 300;
+}
+#ngonchanlinh{
+  height: 150px;
+}
+#endlinh{
+
+}
+}
